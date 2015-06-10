@@ -1,5 +1,9 @@
 # set your user tokens as environment variables, such as ~/.secrets
 # See the README for examples.
+
+[user]
+  name="Joe Newbry"
+  email="joenewbry@gmail.com"
 [color]
   ui = true
 [color "branch"]
