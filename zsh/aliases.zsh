@@ -19,6 +19,11 @@ alias ylv='yadr vim-list-plugin'
 alias yup='yadr update-plugins'
 alias yip='yadr init-plugins'
 
+# bundler support
+alias bx='bundle exec'
+alias bxt='bundle exec rspec'
+alias bi='bundle install'
+
 # PS
 alias psa="ps aux"
 alias psg="ps aux | grep "
@@ -53,6 +58,9 @@ MACVIM_INSTALLED=$?
 if [ $MACVIM_INSTALLED -eq 0 ]; then
   alias vim="mvim -v"
 fi
+
+# my additions
+alias vi="vim"
 
 # mimic vim functions
 alias :q='exit'

@@ -33,6 +33,8 @@ syntax on
 " the plugins.
 let mapleader=","
 
+let g:neocomplete#enable_at_startup = 1
+
 " =============== Vundle Initialization ===============
 " This loads all the plugins specified in ~/.vim/vundles.vim
 " Use Vundle plugin to manage all other plugins
@@ -108,6 +110,7 @@ set incsearch       " Find the next match as we type the search
 set hlsearch        " Highlight searches by default
 set ignorecase      " Ignore case when searching...
 set smartcase       " ...unless we type a capital
+set guifont=Bitstream\ Vera\ Sans\ Mono:h14
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
